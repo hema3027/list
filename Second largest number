@@ -1,0 +1,8 @@
+#python
+a=[]
+b=[]
+n=int(input())
+for i in range(1,n+1):
+    a.append(int(input()))
+b=sorted(a)
+print(b[n-2])
